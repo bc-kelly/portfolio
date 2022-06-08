@@ -1,0 +1,6 @@
+.contact-div {
+    width: 100%;
+    min-height: 50px;
+    outline: solid red 2px;
+    margin: 10px;
+}

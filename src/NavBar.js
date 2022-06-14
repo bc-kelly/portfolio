@@ -1,14 +1,16 @@
 import React from 'react';
 import { NavLink } from "react-router-dom"
+import './NavBar.css';
+
 
 function NavBar() {
   return (
-    <div >
-      <NavLink to="/home">HOME</NavLink>
-      <NavLink to="/about">ABOUT</NavLink>
-      <NavLink to="/resume">RESUME</NavLink>
-      <NavLink to="/projects">PROJECTS</NavLink>
-      <NavLink to="/contact">CONTACT</NavLink>
+    <div className="navBar-div">
+      <NavLink className="navbar-link" to="/home">HOME</NavLink>
+      <NavLink className="navbar-link" to="/about">ABOUT</NavLink>
+      <NavLink className="navbar-link" to="/resume">RESUME</NavLink>
+      <NavLink className="navbar-link" to="/projects">PROJECTS</NavLink>
+      <NavLink className="navbar-link" to="/contact">CONTACT</NavLink>
     </div>
   );
 }

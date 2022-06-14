@@ -5,6 +5,9 @@ function Resume() {
   return (
     <div className="resume-div">
       hello from resume
+      <div >
+          
+      </div>
     </div>
   );
 }

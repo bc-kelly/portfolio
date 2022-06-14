@@ -14,8 +14,8 @@ function App() {
   return (
     <Router> 
       <div className="App">
-        <h1> hello from app </h1> 
-        <h2> welcome to my portfolio </h2>
+        <h1> Bridget Kelly: Portfolio </h1> 
+        <h2> Software Engineer </h2>
         {/* <Home />
         <Projects />
         <Contact /> */}

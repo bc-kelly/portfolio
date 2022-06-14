@@ -1,0 +1,10 @@
+.navBar-div {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+
+.navbar-link {
+    margin: 5%;
+}

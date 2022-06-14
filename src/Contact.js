@@ -4,9 +4,12 @@ import './Contact.css'
 function Contact() {
   return (
     <div className="contact-div">
-      hello from contact
-      <h3>Please feel free to contact me at </h3>
       
+      <h3>Please feel free to contact me at </h3>
+      <a href="https://www.linkedin.com/in/bridget-kelly-594009127/" > LinkedIn </a>
+      <h4> (516) 668-0424 </h4>
+      <h4> bckelly197@gmail.com </h4>
+
     </div>
   );
 }

@@ -22,7 +22,7 @@ function App() {
           <NavBar />
             <div className="content"> 
               <Switch>
-                <Route path ="/home" > <Home /> </Route>
+                <Route exact path ="/" > <Home /> </Route>
                 <Route path ="/about" > <About /> </Route>
                 <Route path ="/resume" > <Resume /> </Route>
                 <Route path ="/contact" > <Contact /> </Route>

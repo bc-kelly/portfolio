@@ -14,8 +14,8 @@ function App() {
   return (
     <Router> 
       <div className="App">
-        <h1> Bridget Kelly: Portfolio </h1> 
-        <h2> Software Engineer </h2>
+        <h1 className="bridget-header"> Bridget Kelly: Portfolio </h1> 
+        <h2 className="title-header"> Software Engineer </h2>
         {/* <Home />
         <Projects />
         <Contact /> */}

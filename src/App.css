@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.bridget-header {
+  font-family: Lato;
+}
+
+.title-header {
+  font-family: Lato;
+}
+
+body {
+  background-color: #e0ffcd;
+}

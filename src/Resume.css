@@ -1,0 +1,10 @@
+.kyndryl, .ibm, .marist, .flatiron {
+    width: 30vh;
+    margin: auto;
+}
+
+.work-experience, .education {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}

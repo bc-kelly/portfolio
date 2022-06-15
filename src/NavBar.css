@@ -8,4 +8,9 @@
 
 .navbar-link {
     margin: 5%;
+    color: #be3b0f;
+}
+
+.navbar-link hover {
+    color: #ffcab0;
 }

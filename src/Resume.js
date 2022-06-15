@@ -4,7 +4,7 @@ import './Resume.css'
 function Resume() {
   return (
     <div className="resume-div">
-      <h2> Work Experience </h2>  
+      <h2 className="work-title"> Work Experience </h2>  
         <div className="work-experience"> 
           <div className="kyndryl">
             <h3> Kyndryl </h3> 
@@ -21,7 +21,7 @@ function Resume() {
           </div>
         </div>
 
-      <h2> Education </h2>
+      <h2 className="work-title"> Education </h2>
         <div className="education"> 
           <div className="marist"> 
             <h3> Marist College</h3>
@@ -36,7 +36,7 @@ function Resume() {
           </div>
         </div>
 
-      <h2> Technical Skills </h2>
+      <h2 className="work-title"> Technical Skills </h2>
         <div className="skills">
           <h3> HTML, CSS, JavaScript, React, Ruby, Ruby on Rails </h3>
         </div> 

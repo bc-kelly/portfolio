@@ -1,6 +1,8 @@
 .home-div {
     width: 100%;
     min-height: 50px;
-    margin: 10px;
+    /* margin: auto; */
     font-family: Lato;
+    text-align: center;
+    justify-content: center;
 }

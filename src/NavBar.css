@@ -1,9 +1,13 @@
 .navBar-div {
-    margin-top: 4%;
-    margin-bottom: 4%;
+    /* margin-top: 4%; */
+    /* margin-bottom: 4%; */
     text-decoration: none;
     color: black;
     justify-content: space-between;
+    /* width: 100%; */
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
 }
 
 .navbar-link {

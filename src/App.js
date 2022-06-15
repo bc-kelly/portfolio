@@ -12,37 +12,29 @@ import Contact from "./Contact"
 function App() {
 
   return (
-    <Router> 
-      <div className="App">
-        <div className="bridget-header"> 
-          <p> Bridget Kelly: Portfolio </p>
-        </div> 
-        <div className="title-header"> Software Engineer </div>
-        {/* <Home />
-        <Projects />
-        <Contact /> */}
-        <NavBar />
-          <div className="content"> 
-            <Switch>
-              <Route path ="/home" > 
-                <Home />
-              </Route>
-              <Route path ="/about" > 
-                <About />
-              </Route>
-              <Route path ="/resume" > 
-                <Resume />
-              </Route>
-              <Route path ="/contact" > 
-                <Contact />
-              </Route>
-              <Route path ="/projects" > 
-                <Projects />
-              </Route>
-            </Switch>
-          </div>
-      </div>
-    </Router>
+    <div className="container">
+      <Router> 
+        <div className="App">
+          <div className="bridget-header"> 
+            <p> Bridget Kelly: Portfolio </p>
+          </div> 
+          <div className="title-header"> Software Engineer </div>
+          <NavBar />
+            <div className="content"> 
+              <Switch>
+                <Route path ="/home" > <Home /> </Route>
+                <Route path ="/about" > <About /> </Route>
+                <Route path ="/resume" > <Resume /> </Route>
+                <Route path ="/contact" > <Contact /> </Route>
+                <Route path ="/projects" > <Projects /> </Route>
+              </Switch>
+            </div>
+  
+            <div className="footer"> thanks for visiting! </div>
+        </div>
+      </Router>
+      {/* <div className="footer"> thanks for visiting! </div> */}
+    </div> 
   );
 }
 

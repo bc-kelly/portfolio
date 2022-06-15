@@ -5,6 +5,20 @@
   /* margin: auto; */
 }
 
+.container {
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 5%;
+  background-color: #ffcab0;
+  text-align: center;
+  width: 100%;
+  padding-top: 1%;
+}
+
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -39,4 +53,5 @@
 
 body {
   background-color: #e0ffcd;
+  height: 100%;
 }

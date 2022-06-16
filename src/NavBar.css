@@ -1,13 +1,13 @@
 .navBar-div {
-    /* margin-top: 4%; */
-    /* margin-bottom: 4%; */
     text-decoration: none;
-    color: black;
-    justify-content: space-between;
+    /* color: black; */
+    /* justify-content: space-between; */
     /* width: 100%; */
-    margin-right: 10%;
-    margin-left: 10%;
-    display: flex;
+    /* margin-right: 10%;
+    margin-left: 10%; */
+    display: inline-block;
+    width: 20%;
+    float: left;
 }
 
 .navbar-link {
@@ -18,3 +18,12 @@
 .navbar-link hover {
     color: #ffcab0;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    height: 100%;
+  }

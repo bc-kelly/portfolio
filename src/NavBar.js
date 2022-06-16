@@ -6,11 +6,13 @@ import './NavBar.css';
 function NavBar() {
   return (
     <div className="navBar-div">
-      <NavLink className="navbar-link" exact to="/">HOME</NavLink>
-      <NavLink className="navbar-link" to="/about">ABOUT</NavLink>
-      <NavLink className="navbar-link" to="/resume">RESUME</NavLink>
-      <NavLink className="navbar-link" to="/projects">PROJECTS</NavLink>
-      <NavLink className="navbar-link" to="/contact">CONTACT</NavLink>
+      <ul> 
+        <li>  <NavLink className="navbar-link" exact to="/">HOME</NavLink> </li>
+        <li> <NavLink className="navbar-link" to="/about">ABOUT</NavLink> </li>
+        <li> <NavLink className="navbar-link" to="/resume">RESUME</NavLink> </li>
+        <li> <NavLink className="navbar-link" to="/projects">PROJECTS</NavLink> </li>
+        <li> <NavLink className="navbar-link" to="/contact">CONTACT</NavLink> </li>
+      </ul>
     </div>
   );
 }

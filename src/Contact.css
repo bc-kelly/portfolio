@@ -1,13 +1,24 @@
-.contact-div {
+/* .contact-div {
     width: 100%;
     min-height: 50px;
-    margin: 10px;
     font-family: Lato;
     text-align: center;
-}
+} */
 
 .links {
     margin: 1%;
     font-size: 1.25em;
     color: black;
 }
+
+@media screen and (min-width: 601px) {
+    .contact-div {
+      font-size: 1em;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .contact-div {
+      font-size: .6em;
+    }
+  }

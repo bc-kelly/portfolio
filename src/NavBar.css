@@ -8,22 +8,38 @@
     display: inline-block;
     width: 20%;
     float: left;
+    margin-left: 10px;
+
 }
 
 .navbar-link {
-    margin: 2%;
+    /* margin: 2%; */
     color: #be3b0f;
+    /* padding-bottom: 10px;
+    margin-bottom: 10px; */
 }
 
-.navbar-link hover {
+/* .navbar-link hover {
     color: #ffcab0;
-}
+} */
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: white;
-    height: 100%;
+    /* width: 100%; */
+    /* background-color: white; */
+    /* height: 100%; */
+  }
+
+  @media screen and (min-width: 601px) {
+    .navbar-link{
+      font-size: 1em;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .navbar-link {
+      font-size: .5em;
+    }
   }

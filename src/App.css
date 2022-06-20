@@ -38,17 +38,19 @@
   font-family: Lato;
   display: flex;
   justify-content: center;
-  /* margin: auto; */
+  margin-bottom: 0;
   /* justify-content: center; */
   /* text-align: center; */
-  font-size: 2em;
+  /* font-size: 2em; */
 }
 
 .title-header {
   font-family: Lato;
   display: flex;
   justify-content: center;
-  font-size: 2em;
+  /* font-size: 2em; */
+  padding-bottom: 1%;
+
 }
 
 body {
@@ -62,7 +64,8 @@ body {
 
 .bottom-part {
   display: flex;
-  height: 100%
+  height: 100%;
+  padding-top: 1%;
 }
 
 .content {
@@ -73,5 +76,17 @@ body {
 .nav{
   width: 20%;
   float: left;
+}
+
+@media screen and (min-width: 601px) {
+  .top-part {
+    font-size: 2.1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top-part {
+    font-size: 1em;
+  }
 }
 

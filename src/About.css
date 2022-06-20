@@ -1,7 +1,19 @@
 .about-div {
-    margin: auto;
-    font-size: 1.5em;
+    margin-left: 10%;
+    /* font-size: 4vw; */
     font-family: Lato;
-    width: 50%;
+    width: 60%;
     text-align: center;
 }
+
+@media screen and (min-width: 601px) {
+    .about-div {
+      font-size: 2em;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .about-div {
+      font-size: .6em;
+    }
+  }

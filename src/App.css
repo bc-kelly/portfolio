@@ -55,3 +55,23 @@ body {
   background-color: #e0ffcd;
   height: 100%;
 }
+
+.top-part {
+  background-color: #fdffcd;
+}
+
+.bottom-part {
+  display: flex;
+  height: 100%
+}
+
+.content {
+  width: 80%;
+  float: right;
+}
+
+.nav{
+  width: 20%;
+  float: left;
+}
+

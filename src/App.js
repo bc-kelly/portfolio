@@ -15,22 +15,29 @@ function App() {
     <div className="container">
       <Router> 
         <div className="App">
-          <div className="bridget-header"> 
-            <p> Bridget Kelly: Portfolio </p>
-          </div> 
-          <div className="title-header"> Software Engineer </div>
-          <NavBar />
-            <div className="content"> 
-              <Switch>
-                <Route exact path ="/" > <Home /> </Route>
-                <Route path ="/about" > <About /> </Route>
-                <Route path ="/resume" > <Resume /> </Route>
-                <Route path ="/contact" > <Contact /> </Route>
-                <Route path ="/projects" > <Projects /> </Route>
-              </Switch>
+          <div className="top-part"> 
+            <div className="bridget-header"> 
+              <p> Bridget Kelly: Portfolio </p>
+            </div> 
+            <div className="title-header"> 
+              Software Engineer 
             </div>
-  
-            <div className="footer"> thanks for visiting! </div>
+          </div> 
+          <div className="bottom-part"> 
+            <div className="nav"> 
+              <NavBar />
+            </div> 
+            <div className="content"> 
+                <Switch>
+                  <Route exact path ="/" > <Home /> </Route>
+                  <Route path ="/about" > <About /> </Route>
+                  <Route path ="/resume" > <Resume /> </Route>
+                  <Route path ="/contact" > <Contact /> </Route>
+                  <Route path ="/projects" > <Projects /> </Route>
+                </Switch>
+            </div>
+          </div> 
+            {/* <div className="footer"> thanks for visiting! </div> */}
         </div>
       </Router>
       {/* <div className="footer"> thanks for visiting! </div> */}

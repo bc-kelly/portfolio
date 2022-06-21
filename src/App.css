@@ -3,6 +3,7 @@
   /* display: flex; */
   /* justify-content: center; */
   /* margin: auto; */
+  font-family: Roboto
 }
 
 .container {
@@ -35,7 +36,7 @@
 
 
 .bridget-header {
-  font-family: Lato;
+  font-family: Roboto;
   display: flex;
   justify-content: center;
   margin-bottom: 0;
@@ -45,7 +46,7 @@
 }
 
 .title-header {
-  font-family: Lato;
+  font-family: Roboto;
   display: flex;
   justify-content: center;
   /* font-size: 2em; */

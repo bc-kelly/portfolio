@@ -1,10 +1,11 @@
 .resume-div {
   margin-left: 10%;
+  font-family: Roboto;
 }
 
 .kyndryl, .ibm, .marist, .flatiron {
-    width: 40%;
-    /* margin-left: 5%; */
+    width: 60%;
+    margin-right: 2em;
 }
 
 .work-experience, .education, .skills {
@@ -47,7 +48,7 @@
 
   @media screen and (min-width: 601px) {
     .kyndryl, .ibm, .marist, .flatiron{
-      font-size: 1em;
+      font-size: 1.2em;
     }
   }
 

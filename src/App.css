@@ -1,7 +1,7 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   /* display: flex; */
-  justify-content: center;
+  /* justify-content: center; */
   /* margin: auto; */
 }
 
@@ -66,13 +66,15 @@ body {
   display: flex;
   height: 100%;
   padding-top: 1%;
+  /* margin: auto; */
 }
 
 .content {
   /* width: 80%; */
-  float: right;
+  /* float: right; */
   /* margin-left: 20%; */
   /* margin: auto; */
+  position: relative;
 }
 
 .nav{

@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className="contact-div">
       
-      <h3>Please feel free to contact me at: </h3>
+      <h3 >Please feel free to contact me at: </h3>
       <div> 
         <a className="links" href="https://www.linkedin.com/in/bridget-kelly-594009127/" target="_blank"> LinkedIn </a>
         <a className="links" href="https://github.com/bc-kelly" target="_blank"> GitHub </a>

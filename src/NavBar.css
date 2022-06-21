@@ -8,7 +8,7 @@
     display: inline-block;
     width: 20%;
     float: left;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 
 }
 
@@ -42,4 +42,10 @@ ul {
     .navbar-link {
       font-size: .5em;
     }
+  }
+
+  .navBar-ul li {
+    display: inline-block;
+    padding-bottom: 1em;
+    padding-left: 2em;
   }

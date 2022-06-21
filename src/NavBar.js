@@ -6,7 +6,7 @@ import './NavBar.css';
 function NavBar() {
   return (
     <div className="navBar-div">
-      <ul> 
+      <ul className = "navBar-ul"> 
         <li>  <NavLink className="navbar-link" exact to="/">HOME</NavLink> </li>
         <li> <NavLink className="navbar-link" to="/about">ABOUT</NavLink> </li>
         <li> <NavLink className="navbar-link" to="/resume">RESUME</NavLink> </li>

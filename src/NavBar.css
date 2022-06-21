@@ -34,13 +34,13 @@ ul {
 
   @media screen and (min-width: 601px) {
     .navbar-link{
-      font-size: 1em;
+      font-size: 1.25em;
     }
   }
 
   @media screen and (max-width: 600px) {
     .navbar-link {
-      font-size: .5em;
+      font-size: .75em;
     }
   }
 

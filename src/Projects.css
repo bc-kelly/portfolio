@@ -8,3 +8,31 @@
 .project-title {
     font-size: 1.5em;
 }
+
+.indiv-proj {
+    margin-bottom: 2vh;
+}
+
+@media screen and (min-width: 601px) {
+    .project-title{
+      font-size: 1.5em;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .project-title {
+      font-size: 1em;
+    }
+  }
+
+  @media screen and (min-width: 601px) {
+    .details{
+      font-size: 1.2em;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .details {
+      font-size: .8em;
+    }
+  }

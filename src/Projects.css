@@ -10,7 +10,17 @@
 } */
 
 .indiv-proj {
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
+}
+
+.description, .description-two {
+  width: 80%;
+}
+
+.website-link {
+  margin: 1%;
+  font-size: 1em;
+  color: #ffcbcb; 
 }
 
 @media screen and (min-width: 601px) {

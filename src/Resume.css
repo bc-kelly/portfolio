@@ -22,6 +22,10 @@
     /* margin-left: 30%; */
 }
 
+.work-title h2 {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 601px) {
     .work-title {
       font-size: 2em;

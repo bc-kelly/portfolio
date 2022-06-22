@@ -46,6 +46,14 @@
   /* font-size: 2em; */
 }
 
+.bridget-header h1 {
+  margin-bottom: 0; 
+}
+
+.title-header h2 {
+  margin-bottom: 0;
+}
+
 .title-header {
   font-family: Roboto;
   display: flex;

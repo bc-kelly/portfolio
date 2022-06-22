@@ -5,11 +5,11 @@ function Projects() {
   return (
     <div className = "projects-div">
       <div className="indiv-proj"> 
-        <h2 className = "project-title">Vacation Pro </h2>
+        <h1 className = "project-title">Vacation Pro </h1>
         <div className="details"> 
           <h4 className="description"> Vacation Pro is a group travel planning website to help users plan trips with their family and friends, designed to keep everyone in the loop. Users have the ability to create an account, add multiple profiles to their account, browse hotels, plan and save trips, and invite friends to join their account.
           </h4>
-          <h5 className="description-two"> Built using JavaScript, React, Ruby, and Ruby on Rails. Deployed on Heroku. Used JSON Web Tokens and localStorage to store encrypted account and profile information client-side, as well as sessions to store saved trips to individual profiles.
+          <h5 className="description-two"> Built using JavaScript, React.js, Ruby, and Ruby on Rails. Deployed on Heroku. Used JSON Web Tokens and localStorage to store encrypted account and profile information client-side, as well as sessions to store saved trips to individual profiles.
           Implemented an “Invite a friend” button and used EmailJS to send out an invitation containing a link to the site.
           Hotel data stored using postgres database, mnaually seeded. 
           Deployed using Heroku. 
@@ -23,7 +23,7 @@ function Projects() {
         <h1 className = "project-title"> Star Wars: Battle of the Known Universe </h1>
         <div className="details"> 
           <h4 className="description"> This website is a Star Wars themed game of Rock, Paper, Scissors. Users have the ability to create an account and log in, view all of the listed characters and planets, add their own character, and choose characters to participate in their battle. </h4>
-          <h5 className="description-two"> Built using JavaScript, React, Ruby, and Ruby on Rails. Incorporated various CSS techniques in order to recreate several iconic Star Wars features, such as the scrolling intro and the logo rotating and shooting into space.
+          <h5 className="description-two"> Built using JavaScript, React.js, Ruby, and Ruby on Rails. Incorporated various CSS techniques in order to recreate several iconic Star Wars features, such as the scrolling intro and the logo rotating and shooting into space.
           Included validations in Rails to ensure users create a full profile and new characters have all necessary attributes.
           </h5>
           <a className="website-link" href="https://www.loom.com/share/3112d27983ef43c3b5e341d1cf303e0b"> Demo Video </a>

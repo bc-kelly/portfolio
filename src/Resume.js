@@ -15,7 +15,7 @@ function Resume() {
 
           <div className="ibm">
             <h3> IBM </h3> 
-            <h4> Financial Analyst </h4>
+            <h4 className="role"> Financial Analyst </h4>
               <h5> Worked as the first labor focal on the finance team supporting the WW Consolidation of the Digital Workplace Services business and implemented monthly processes to report labor actuals. Instituted monthly cadences to provide insight on headcount, offerings, comparisons by geography, the composition of our labor cost, and provided recommendations for weaker contracts and offerings.
               </h5>
           </div>

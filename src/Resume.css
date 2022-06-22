@@ -1,17 +1,23 @@
 .resume-div {
-  margin-left: 10%;
+  margin-left: 8%;
   font-family: Roboto;
+  width: 100%;
+}
+
+.role h4 {
+  margin-bottom: 0;
 }
 
 .kyndryl, .ibm, .marist, .flatiron {
-    width: 85%;
-    margin-right: 2em;
+    /* width: 85%; */
+    /* margin-right: 2em; */
+    margin-bottom: 5vh;
 }
 
 .work-experience, .education, .skills {
-    display: flex;
+    /* display: flex; */
     /* justify-content: center; */
-    width: 60%;
+    width: 80%;
     /* margin-left: 15%; */
     /* text-align: center; */
 }

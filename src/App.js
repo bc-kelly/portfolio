@@ -17,11 +17,11 @@ function App() {
         <div className="App">
           <div className="top-part"> 
             <div className="bridget-header"> 
-              <p> Bridget Kelly: Portfolio </p>
+              <h1> Bridget Kelly: Portfolio </h1>
             </div> 
-            <div className="title-header"> 
+            <h2 className="title-header"> 
               Software Engineer 
-            </div>
+            </h2>
           </div> 
           <div className="bottom-part"> 
             <div className="nav"> 

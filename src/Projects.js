@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div className = "projects-div">
       <div className="indiv-proj"> 
-        <h1 className = "project-title">Vacation Pro </h1>
+        <h3 className = "project-title">Vacation Pro </h3>
         <div className="details"> 
           <h4 className="description"> Vacation Pro is a group travel planning website to help users plan trips with their family and friends, designed to keep everyone in the loop. Users have the ability to create an account, add multiple profiles to their account, browse hotels, plan and save trips, and invite friends to join their account.
           </h4>

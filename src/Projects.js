@@ -49,8 +49,7 @@ function Projects() {
           </h4>
           <h5 className="description-two"> I created this website using Webflow. This was my first time using this tool and I wanted to focus on CSS to sharpen my styling skills. This client needed a visually appealing and easy to navigate website. This tool was easy to learn and both myself and the client were pleased with the outcome. 
           </h5>
-          <a className="website-link" href="https://hotelproject-react.netlify.app/"> Website Link </a>
-          <a className="website-link" href="https://github.com/bc-kelly/phase-3-project-front-end"> GitHub Repository</a>
+          <a className="website-link" href=""> Website Link - not yet published </a>
         </div>
       </div>
     </div>

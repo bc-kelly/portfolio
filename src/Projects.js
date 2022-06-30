@@ -45,7 +45,7 @@ function Projects() {
       <div className="indiv-proj"> 
         <h1 className = "project-title"> Personal Trainer Website </h1>
         <div className="details"> 
-          <h4 className="description"> This website was created for a personal trainer. This individual was new to personal training and needed to have a website where potential clients could read about her style of personal training as well as previous reviews.
+          <h4 className="description"> This website was created for a personal trainer. This individual was new to personal training and needed to have a website where potential clients could read about her style of personal training as well as see previous reviews from existing clients.
           </h4>
           <h5 className="description-two"> I created this website using Webflow. This was my first time using this tool and I wanted to focus on CSS to sharpen my styling skills. This client needed a visually appealing and easy to navigate website. This tool was easy to learn and both myself and the client were pleased with the outcome. 
           </h5>

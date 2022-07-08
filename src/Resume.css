@@ -24,6 +24,7 @@
 
 .work-title {
     display: flex;
+    text-decoration: underline;
     /* justify-content: center; */
     /* margin-left: 30%; */
 }

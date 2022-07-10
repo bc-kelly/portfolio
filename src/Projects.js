@@ -53,16 +53,16 @@ function Projects() {
         </div>
       </div>
 
-      {/* <div className="indiv-proj"> 
+      <div className="indiv-proj"> 
         <h1 className = "project-title"> Portfolio</h1>
         <div className="details"> 
-          <h4 className="description"> This website was created for a personal trainer. This individual was new to personal training and needed to have a website where potential clients could read about her style of personal training as well as previous reviews.
+          <h4 className="description"> This is my portfolio website that you are currently on. I wanted a page where I could post all of my projects as well as my resume. Next, I will be adding in an email function for an elevated user experience. 
           </h4>
           <h5 className="description-two"> Built using Javascript and React.js. Deployed on Netlify.  
           </h5>
-          <a className="website-link" href=""> Website Link </a>
+          {/* <a className="website-link" href=""> Website Link </a> */}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
